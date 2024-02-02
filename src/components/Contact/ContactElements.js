@@ -28,3 +28,29 @@ export const Email = styled.div`
     }
   }
 `;
+
+export const Socials = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  flex direction: column;
+  justify-content: center;
+  padding-top: 3rem;
+
+  .social-icon {
+    width: 100%
+    height: 100%
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
+  .social-icon:hover {
+    opacity: 0.5
+  }
+
+  .SocialIcon {
+    display: flex;
+    justify-content: center
+  }
+
+
+`;

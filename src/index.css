@@ -87,7 +87,7 @@ video {
 .PrimaryBtn {
   padding: 12px 20px;
   border: none;
-  background: rgb(57, 134, 250);
+  background: #08cc77;
   color: #f6f6f6;
 }
 
@@ -99,7 +99,7 @@ video {
 }
 
 .PrimaryBtn:hover {
-  background: rgb(18, 111, 250);
+  background: #069c5b;
 }
 
 .SecondaryBtn:hover {

@@ -24,8 +24,8 @@ export const NavLink = styled(ScrollLink)`
 `;
 export const Logo = styled('div')`
   img {
-    width: 47px;
-    height: 47px;
+    width: auto;
+    height: 4rem;
   }
 `;
 
@@ -42,10 +42,9 @@ export const Bars = styled(FaBars)`
 export const NavMenu = styled.div`
   display: flex;
   align-items: center;
-  margin-right: -24px;
 
   .menu-item + .menu-item {
-    margin-left: 1rem;
+    margin-left: 2rem;
   }
   @media screen and (max-width: 768px) {
     display: none;

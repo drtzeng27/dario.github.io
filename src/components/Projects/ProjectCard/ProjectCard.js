@@ -44,7 +44,7 @@ function ProjectCard() {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    Demo ➜
+                    {list.button_label}
                   </a>
                 )}
               </BtnGroup>

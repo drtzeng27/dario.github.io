@@ -5,6 +5,7 @@ export const Card = styled.div`
   grid-gap: 2rem;
   margin-bottom: 4rem;
   grid-template-columns: 1fr;
+  object-fit: cover;
   padding-bottom: 2rem;
   overflow: hidden;
   border-radius: 10px;
@@ -19,7 +20,9 @@ export const Card = styled.div`
 
 export const CardLeft = styled.div`
   justify-self: center;
-  height: 100%;
+  width: 100%
+  height: 100%
+  vertical-align: bottom
   img {
     object-fit: cover;
   }
@@ -71,7 +74,7 @@ export const TechCardContainer = styled.div`
 
 export const TechCard = styled.div`
   border-radius: 10px;
-  background-color: #f5f5f5;
+  background-color: #daf2ed;
   padding: 5px 10px;
   margin: 5px;
   display: flex;
